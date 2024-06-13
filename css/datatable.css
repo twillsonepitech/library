@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+.d-container {
+    width: 100%;
+    margin: auto;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+}
+
+.filter-button, .add-new-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.filter-button {
+    background-color: #555;
+}
+
+.add-new-button {
+    background-color: #007BFF;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+thead {
+    background-color: #333;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+
+tbody tr {
+    border-bottom: 1px solid #444;
+}
+
+thead th:first-child {
+    border-top-left-radius: 10px;
+}
+
+thead th:last-child {
+    border-top-right-radius: 10px;
+}
+
+tbody tr:hover {
+    background-color: #444;
+}
+
+.fa-check, .fa-xmark {
+    margin-right: 10px;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+input[type="text"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.info {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.name {
+    display: block;
+    font-weight: bold;
+}
+
+.book_code, .mail {
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+.genre, .description, .address, .passwd {
+    display: block;
+    width: 340px;
+}
+
+.delete-button {
+    background: none;
+    padding: 0px;
+    border: none;
+    font-size: 16px;
+}
+
+.approve-button {
+    background: none;
+    padding: 0px;
+    border: none;
+    font-size: 16px;
+}
+
+.status {
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.9em;
+}
+
+.status.active {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.status.paused {
+    background-color: #ffc107;
+    color: #fff;
+}
+
+.status.vacation {
+    background-color: #fd7e14;
+    color: #fff;
+}
+
+.action-button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+}
+
+.page-button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.page-button:hover {
+    background-color: #333;
+    border-radius: 10px;
+}

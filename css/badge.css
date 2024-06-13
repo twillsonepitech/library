@@ -1,0 +1,38 @@
+.flex {
+    display: inline-block;
+    position: relative;
+    gap: 10px;
+}
+
+.badge {
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.orange {
+    color: #ff9800;
+    background-color: rgba(255, 153, 0, 0.1);
+}
+
+.blue {
+    color: #2196f3;
+    background-color: rgba(0, 140, 255, 0.1);
+}
+
+.green {
+    color: #4caf50;
+    background-color: rgba(0, 255, 8, 0.1);
+}
+
+.grey {
+    color: grey;
+    background-color: rgb(229 229 229 / 45%);
+}
+
+.custom-color {
+    color: #8371fd;
+    background-color: rgb(35 0 255 / 10%);
+}
